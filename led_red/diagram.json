@@ -16,7 +16,7 @@
         "top": 72,
         "left": -288.55,
         "rotate": 90,
-        "attrs": { "value": "1000" }
+        "attrs": { "value": "330" }
       },
       {
         "type": "wokwi-led",
