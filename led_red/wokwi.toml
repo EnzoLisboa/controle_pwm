@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/led_red.hex'
+elf = 'build/led_red.elf'
