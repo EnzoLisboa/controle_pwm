@@ -56,19 +56,6 @@ Este projeto demonstra como controlar um servomotor e um LED usando o módulo PW
 - Conecte o ânodo do LED à GPIO 13.
 - Conecte o cátodo do LED a um resistor de 330Ω e depois ao GND.
 
-## Executando o Projeto
-
-1. **Carregue o código no Raspberry Pi Pico**:
-
-   Conecte o Raspberry Pi Pico ao computador via USB.
-
-   Carregue o arquivo .uf2 gerado na pasta build para o Pico.
-
-2. **Observe o comportamento**:
-
-   - O servomotor deve se mover para as posições de 0°, 90° e 180°, com pausas de 5 segundos em cada posição.
-   - Após isso, o servomotor deve oscilar suavemente entre 0° e 180°.
-   - Se estiver usando o LED, ele deve variar de intensidade conforme o ciclo de trabalho do PWM.
 
 ## Código
 
@@ -87,3 +74,20 @@ O código principal está no arquivo `servomotor.c`. Ele configura o PWM para co
 - **Controle do LED (testes)**:
   - Varia a intensidade do LED conforme o ciclo de trabalho do PWM.
   - Utiliza a GPIO 13 para o controle do LED.
+
+## Executando o Projeto
+
+1. **Carregue o código no Raspberry Pi Pico**:
+
+   Conecte o Raspberry Pi Pico ao computador via USB.
+
+   Carregue o arquivo .uf2 gerado na pasta build para o Pico.
+
+2. **Observe o comportamento**:
+
+   - O servomotor deve se mover para as posições de 0°, 90° e 180°, com pausas de 5 segundos em cada posição.
+   - Após isso, o servomotor deve oscilar suavemente entre 0° e 180°.
+   - Se estiver usando o LED, ele deve variar de intensidade conforme o ciclo de trabalho do PWM.
+
+## Demonstração
+   - [Assista ao vídeo da demonstração](https://drive.google.com/file/d/15848TS0PD25wkbFcFhgb2uPvujupZwiW/view?usp=sharing)
