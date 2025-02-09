@@ -53,7 +53,7 @@ Este projeto demonstra como controlar um servomotor e um LED usando o módulo PW
 
 ### LED (testes):
 
-- Conecte o ânodo do LED à GPIO 13 (ou outra GPIO configurada no código).
+- Conecte o ânodo do LED à GPIO 13.
 - Conecte o cátodo do LED a um resistor de 330Ω e depois ao GND.
 
 ## Executando o Projeto
